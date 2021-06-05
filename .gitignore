@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .history/
 .dep
 *.o
@@ -80,3 +81,22 @@ __pycache__
 
 # Allow to exist but don't include it in the repo
 user_song_list.h
+=======
+build
+.build
+.dep
+.cproject
+.project
+*.sublime*
+*.stackdump
+*.lst
+*.o
+*.map
+
+src/gdisp/fonts/*.dat
+
+docs/html
+docs/html.zip
+docs/*.db
+docs/*.tmp
+>>>>>>> 40b48f470addad6a4fb1177de1a69a181158739b
