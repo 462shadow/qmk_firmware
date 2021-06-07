@@ -38,6 +38,12 @@
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_LED_PROCESS_LIMIT (DRIVER_LED_TOTAL + 4) / 5 // limits the number of LEDs to process in an animation per task run (increases keyboard responsiveness)
 #    define RGB_MATRIX_LED_FLUSH_LIMIT 16 // limits in milliseconds how frequently an animation will update the LEDs. 16 (16ms) is equivalodes (must use code functions to control the feature)
+<<<<<<< HEAD
+=======
+#    define RGB_MATRIX_STARTUP_HUE 0 // Sets the default hue value, if none has been set
+#    define RGB_MATRIX_STARTUP_SAT 255 // Sets the default saturation value, if none has been set
+#    define RGB_MATRIX_STARTUP_SPD 127 // Sets the default animation speed, if none has been set
+>>>>>>> origin/develop
 #    define RGB_DISABLE_AFTER_TIMEOUT 0 // number of ticks to wait until disabling effects
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 #    define RGB_MATRIX_KEYPRESSES
